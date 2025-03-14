@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle, DarkThemeToggle } from "flowbite-react"
+import Link from "next/link"
+import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle,DarkThemeToggle } from "flowbite-react"
 import { Footer, FooterBrand, FooterCopyright, FooterDivider, FooterLink, FooterLinkGroup } from "flowbite-react"
 
 export function DefaultHeader() {
@@ -20,9 +20,9 @@ export function DefaultHeader() {
                 <NavbarLink href="#">Pricing</NavbarLink>
                 <NavbarLink href="#">Contact</NavbarLink>
             </NavbarCollapse>
-            <DarkThemeToggle />
+            <DarkThemeToggle/>
         </Navbar>
-    );
+    )
 }
 
 export function DefaultFooter() {
@@ -47,6 +47,6 @@ export function DefaultFooter() {
                 <FooterCopyright href="#" by="Bollytn" year={2025} />
             </div>
         </Footer>
-    );
+    )
 }
 
